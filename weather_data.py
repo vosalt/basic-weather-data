@@ -1,5 +1,5 @@
 """
-Pull and present 14 days of weather data for Bellingham, WA
+Pull and present 15 days of weather data for Bellingham, WA
 """
 
 import pandas as pd
@@ -7,7 +7,7 @@ import requests
 
 
 def data_pull():
-    """pull 14 days of weather data from tomorrow.io"""
+    """pull 15 days of weather data from tomorrow.io"""
 
     url = "https://api.tomorrow.io/v4/timelines"
 
