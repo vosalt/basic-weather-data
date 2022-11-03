@@ -24,7 +24,7 @@ def data_pull():
         ],
         "units": "imperial",
         "timesteps": "1d",
-        "apikey": "kz7XeBBCfcxT3TsbxsegJkirs88VrR28",
+        "apikey": "[your key goes here]",
     }
 
     response = requests.request("GET", url, params=querystring, timeout=10)
