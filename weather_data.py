@@ -65,6 +65,7 @@ def data_present():
         8000: "Thunderstorm",
     }
 
+    # This feels messy; need to learn more before I can clean it up
     bham_data = data_pull()
 
     intervals = bham_data["data"]["timelines"][0]["intervals"]
@@ -85,3 +86,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+# given the purpose, this might be better suited for a jupyter notebook; will explore at a later date
